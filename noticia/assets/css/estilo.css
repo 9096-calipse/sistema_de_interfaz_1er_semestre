@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Fira+Sans+Condensed:ital,wght@1,500&family=Josefin+Sans:wght@600&family=Noto+Sans+SC:wght@500&display=swap');
 body {
-	background-color:#D5FBF4;
+	background-color:#ece8cd;
 	background-repeat: no-repeat;
 	background-position: top;
 	font-family: 'Open Sans', sans-serif;
@@ -15,11 +15,11 @@ body {
     }
     header {
         font-family: 'Bitter', serif;
-        font-weight: 900;
+        font-weight: 1000;
         text-align:center;
         background-position: center;
         background-size: cover;
-        padding:20px;
+        padding:15px;
         margin: 20px;
         }
     h1{
@@ -29,10 +29,10 @@ body {
     }
 
     #envoltorio {
-    width:85%;
+    width:90%;
     padding-top: 0px;    
     margin: 0px;
-    background-color:#312a67;
+    background-color:#371966;
     
     
     } 
@@ -60,26 +60,40 @@ div.gallery img {
         font-family:'Josefin Sans', sans-serif;
         font-size:20px;
         margin-top:20px;
-        background-color:rgba(255,255,255,0.61);
-        border-radius: 5px;
-        
+    
         }
         
-    nav li {
-        color:#392e95;
-        background:#f3ecf7;;
-        padding:7px 8px;
-        float:left;
-        margin:5px;
-        list-style:none;
-        border-radius:5px;
+        .menu {
+            list-style: none;
+            padding:0px;
+            background: #f2f2f5;
+            margin:10px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+        }
+        
+        .menu li {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .menu li a {
+            color:#0c0c0d;
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+        }
+        
+        .menu li a:hover {
+            background: #ef8354;
         }
         
     
         
 article {
         padding: 30px;
-        margin: 2;
+        margin: 20px;
         padding-top: 0px;
         background-color:rgba(255,255,255,0.8);
         width:70%;
@@ -133,7 +147,7 @@ article {
     aside {
         margin-top:-1px;
             display: block;
-            background-color:#400d1c;
+            background-color:#bda72d;
             padding: 5px;
             width:22%;
             float:left;
